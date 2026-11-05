@@ -10,7 +10,7 @@ No scoreboard, no TAB, no side channels — only the vanilla packets every serve
 
 ## Download
 
-Grab the jars from the [latest release](https://github.com/<owner>/PredictiveHealthIndicator/releases/latest).
+Grab the jars from the [latest release](https://github.com/wuysha/PredictiveHealthIndicator/releases/latest).
 
 | Jar | Minecraft | Java | Fabric API |
 |---|---|---|---|
