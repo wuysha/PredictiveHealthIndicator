@@ -25,5 +25,8 @@
   "predictivehealthindicator.indicator.leggings": "Поножи : %s",
   "predictivehealthindicator.update.title": "Доступна Predictive Health Indicator %s",
   "predictivehealthindicator.update.message": "У вас %s. Новая версия на странице релиза:",
-  "predictivehealthindicator.update.later": "Позже"
+  "predictivehealthindicator.update.later": "Позже",
+  "modmenu.nameTranslation.predictivehealthindicator": "Predictive Health Indicator",
+  "modmenu.summaryTranslation.predictivehealthindicator": "Предсказывает оставшееся здоровье ваших противников на основе нанесённого вами урона.",
+  "modmenu.descriptionTranslation.predictivehealthindicator": "Предсказывает оставшееся здоровье ваших противников на основе нанесённого вами урона."
 }

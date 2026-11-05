@@ -25,5 +25,8 @@
   "predictivehealthindicator.indicator.leggings": "Leggings : %s",
   "predictivehealthindicator.update.title": "Predictive Health Indicator %s is out",
   "predictivehealthindicator.update.message": "You have %s. The new version is on its release page:",
-  "predictivehealthindicator.update.later": "Later"
+  "predictivehealthindicator.update.later": "Later",
+  "modmenu.nameTranslation.predictivehealthindicator": "Predictive Health Indicator",
+  "modmenu.summaryTranslation.predictivehealthindicator": "Estimates your opponents' remaining health based on the damage you deal to them.",
+  "modmenu.descriptionTranslation.predictivehealthindicator": "Estimates your opponents' remaining health based on the damage you deal to them."
 }

@@ -3,9 +3,9 @@
   "id": "predictivehealthindicator",
   "version": "${version}",
   "name": "Predictive Health Indicator",
-  "description": "Predicts the remaining health of an opponent from the damage you personally deal to them. No scoreboard, no TAB, no side channels - only vanilla packets that every server already sends.",
+  "description": "Предсказывает оставшееся здоровье ваших противников на основе нанесённого вами урона.",
   "authors": [
-    "dev.phi"
+    "wuysha"
   ],
   "license": "MIT",
   "environment": "client",
@@ -32,5 +32,9 @@
   },
   "suggests": {
     "modmenu": "*"
+  },
+  "icon": "icon.png",
+  "contact": {
+    "sources": "https://github.com/wuysha/PredictiveHealthIndicator"
   }
 }
