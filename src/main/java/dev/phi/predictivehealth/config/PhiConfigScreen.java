@@ -71,6 +71,14 @@ public final class PhiConfigScreen {
 						value -> config.debugOverlay = value)
 					.controller(TickBoxControllerBuilder::create)
 					.build())
+				.option(tickBox()
+					.name(Component.translatable("predictivehealthindicator.config.update_check.name"))
+					.description(OptionDescription.of(
+						Component.translatable("predictivehealthindicator.config.update_check.description")))
+					.binding(PhiConfig.DEFAULT_UPDATE_CHECK, () -> config.updateCheck,
+						value -> config.updateCheck = value)
+					.controller(TickBoxControllerBuilder::create)
+					.build())
 				.option(integer()
 					.name(Component.translatable("predictivehealthindicator.config.range.name"))
 					.description(OptionDescription.of(

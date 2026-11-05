@@ -12,6 +12,8 @@
   "predictivehealthindicator.config.calibrate.description": "The death of an opponent and the totem that saves them show the real health, the damage is corrected with it.",
   "predictivehealthindicator.config.debug.name": "Show the numbers of the prediction",
   "predictivehealthindicator.config.debug.description": "Shows the inputs of the damage pipeline of every opponent, they help to find a wrong input.",
+  "predictivehealthindicator.config.update_check.name": "Check for updates",
+  "predictivehealthindicator.config.update_check.description": "Once per launch the mod asks GitHub for the latest version and shows a dialog when a newer one is out. Nothing about you is sent. Off means no requests at all.",
   "predictivehealthindicator.config.range.name": "Distance",
   "predictivehealthindicator.config.range.description": "Opponents that are further away are not shown.",
   "predictivehealthindicator.config.scale.name": "Text size",
@@ -20,5 +22,8 @@
   "predictivehealthindicator.config.offset_x.description": "Shifts the indicator sideways, in blocks.",
   "predictivehealthindicator.config.offset_y.name": "Vertical offset",
   "predictivehealthindicator.config.offset_y.description": "Shifts the indicator up and down, in blocks.",
-  "predictivehealthindicator.indicator.leggings": "Leggings : %s"
+  "predictivehealthindicator.indicator.leggings": "Leggings : %s",
+  "predictivehealthindicator.update.title": "Predictive Health Indicator %s is out",
+  "predictivehealthindicator.update.message": "You have %s. The new version is on its release page:",
+  "predictivehealthindicator.update.later": "Later"
 }

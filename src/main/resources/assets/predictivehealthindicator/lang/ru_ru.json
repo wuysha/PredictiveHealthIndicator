@@ -12,6 +12,8 @@
   "predictivehealthindicator.config.calibrate.description": "Смерть противника и тотем, который его спасает, показывают настоящее здоровье, по ним урон уточняется.",
   "predictivehealthindicator.config.debug.name": "Показывать числа прогноза",
   "predictivehealthindicator.config.debug.description": "Показывает входные данные расчёта урона каждого противника, они помогают найти неверные данные.",
+  "predictivehealthindicator.config.update_check.name": "Проверять обновления",
+  "predictivehealthindicator.config.update_check.description": "Один раз за запуск мод спрашивает у GitHub последнюю версию и показывает окно, если вышла новая. Ничего о вас не отправляется. Выключено — запросов нет вовсе.",
   "predictivehealthindicator.config.range.name": "Дальность",
   "predictivehealthindicator.config.range.description": "Противники дальше этого расстояния не показываются.",
   "predictivehealthindicator.config.scale.name": "Размер текста",
@@ -20,5 +22,8 @@
   "predictivehealthindicator.config.offset_x.description": "Сдвигает индикатор вбок, в блоках.",
   "predictivehealthindicator.config.offset_y.name": "Смещение по Y",
   "predictivehealthindicator.config.offset_y.description": "Сдвигает индикатор вверх и вниз, в блоках.",
-  "predictivehealthindicator.indicator.leggings": "Поножи : %s"
+  "predictivehealthindicator.indicator.leggings": "Поножи : %s",
+  "predictivehealthindicator.update.title": "Доступна Predictive Health Indicator %s",
+  "predictivehealthindicator.update.message": "У вас %s. Новая версия на странице релиза:",
+  "predictivehealthindicator.update.later": "Позже"
 }

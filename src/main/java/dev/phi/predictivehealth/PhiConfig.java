@@ -22,6 +22,7 @@ public final class PhiConfig {
 	public static final boolean DEFAULT_ESTIMATE_UNKNOWN = true;
 	public static final boolean DEFAULT_CALIBRATE = true;
 	public static final boolean DEFAULT_DEBUG = false;
+	public static final boolean DEFAULT_UPDATE_CHECK = true;
 	public static final int DEFAULT_RANGE = 48;
 	public static final float DEFAULT_TEXT_SCALE = 1.0F;
 	public static final double DEFAULT_OFFSET = 0.0D;
@@ -33,6 +34,8 @@ public final class PhiConfig {
 	public boolean autoCalibrate = DEFAULT_CALIBRATE;
 	/** Shows the numbers behind the prediction, they help to find wrong inputs. */
 	public boolean debugOverlay = DEFAULT_DEBUG;
+	/** Asks GitHub once per launch whether a newer version of the mod is out. */
+	public boolean updateCheck = DEFAULT_UPDATE_CHECK;
 	/** Distance in blocks up to which the opponents are shown. */
 	public int maxRange = DEFAULT_RANGE;
 
@@ -66,6 +69,7 @@ public final class PhiConfig {
 				estimateUnknownDamage = parsed.estimateUnknownDamage;
 				autoCalibrate = parsed.autoCalibrate;
 				debugOverlay = parsed.debugOverlay;
+				updateCheck = parsed.updateCheck;
 				maxRange = parsed.maxRange;
 				textScale = parsed.textScale;
 				offsetX = parsed.offsetX;
