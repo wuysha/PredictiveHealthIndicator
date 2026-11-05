@@ -1,0 +1,36 @@
+{
+  "schemaVersion": 1,
+  "id": "predictivehealthindicator",
+  "version": "${version}",
+  "name": "Predictive Health Indicator",
+  "description": "Predicts the remaining health of an opponent from the damage you personally deal to them. No scoreboard, no TAB, no side channels - only vanilla packets that every server already sends.",
+  "authors": [
+    "dev.phi"
+  ],
+  "license": "MIT",
+  "environment": "client",
+  "entrypoints": {
+    "client": [
+      "dev.phi.predictivehealth.PredictiveHealthIndicatorClient"
+    ],
+    "modmenu": [
+      "dev.phi.predictivehealth.config.PhiModMenu"
+    ]
+  },
+  "mixins": [
+    {
+      "config": "predictivehealthindicator.mixins.json",
+      "environment": "client"
+    }
+  ],
+  "depends": {
+    "fabricloader": ">=0.20.0",
+    "minecraft": "~26.3",
+    "java": ">=25",
+    "fabric-api": "*",
+    "yet_another_config_lib_v3": ">=3.9.0"
+  },
+  "suggests": {
+    "modmenu": "*"
+  }
+}
